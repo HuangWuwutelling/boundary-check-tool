@@ -215,4 +215,11 @@ boundary-check-tool/
 
 ---
 
+# boundary-check-tool
+专业的地块边界文件规范性检查工具
+>>>>>>> 1865ade90d11b824a925889cd8a1f84c3aed5d1e
 ⭐ 如果这个项目对你有帮助，请给个Star支持一下！
+=======
+# boundary-check-tool
+专业的地块边界文件规范性检查工具
+>>>>>>> 1865ade90d11b824a925889cd8a1f84c3aed5d1e
