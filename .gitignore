@@ -65,3 +65,6 @@ sample_data/
 # Generated files
 地块边界检查结果.html
 result_*.xlsx
+
+# Large files - upload via GitHub Release instead
+*.exe
