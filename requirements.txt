@@ -1,0 +1,41 @@
+# 边界文件检查工具依赖列表
+# 安装命令: pip install -r requirements.txt
+
+# 核心地理数据处理库
+geopandas>=0.14.0
+shapely>=2.0.1
+fiona>=1.9.5
+pyproj>=3.6.1
+
+# 数据处理和分析
+pandas>=2.0.3
+numpy>=1.24.0
+
+# 可视化和地图
+folium>=0.14.0
+matplotlib>=3.7.0
+
+# Excel文件处理
+openpyxl>=3.1.2
+xlrd>=2.0.1
+
+# 编码检测
+chardet>=5.2.0
+
+# GUI界面
+# tkinter 是Python标准库，无需安装
+
+# Shapefile处理
+pyshp>=2.3.1
+
+# 可选：优化库
+# scipy>=1.11.0  # 用于某些地理计算优化
+# rtree>=1.0.1   # 空间索引优化（可选）
+
+# 如果使用conda环境，推荐使用以下命令安装主要依赖：
+# conda install -c conda-forge geopandas pandas folium openpyxl chardet
+
+# 注意事项：
+# 1. geopandas依赖较复杂，建议使用conda安装
+# 2. Windows用户可能需要安装GDAL和其他地理库
+# 3. 如遇到安装问题，建议创建新的虚拟环境
